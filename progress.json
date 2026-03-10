@@ -1,0 +1,96 @@
+{
+  "learner": {
+    "name": "",
+    "role": "",
+    "started_at": "",
+    "last_active": ""
+  },
+  "current_position": {
+    "module": 1,
+    "lesson": 1,
+    "section": "learn"
+  },
+  "modules": {
+    "1": {
+      "title": "Fundamentals",
+      "lessons": {
+        "01": { "title": "Claude Code vs Chat vs Cowork", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Connecting Your Tools", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Why Folders Matter", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Your First Conversation", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "05": { "title": "Your First Build", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "2": {
+      "title": "Cowork",
+      "lessons": {
+        "01": { "title": "What Is Cowork?", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Your First Cowork Task", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Your Solo Cowork Activity", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Task Decomposition & Coordination", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "3": {
+      "title": "Skills & Plugins Primer",
+      "lessons": {
+        "01": { "title": "What Are Skills & Plugins?", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Where Skills Come From", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Copy Your First Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Build Your First Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "4": {
+      "title": "Use Case Thinking",
+      "lessons": {
+        "01": { "title": "Feed Claude Your Context", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Copy a Use Case Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Plan Mode", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Build One More Use Case", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "5": {
+      "title": "Intermediate Skills",
+      "lessons": {
+        "01": { "title": "Creating Custom Skills", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Scheduling & Automating Skills", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Skill Best Practices & Patterns", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "CLAUDE.md Deep Dive", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "05": { "title": "Context Files for Cowork", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "6": {
+      "title": "Building Your Use Cases",
+      "lessons": {
+        "01": { "title": "Build Session: Your Top Use Case", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "Claude as Your Reviewer", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Build Session: Your Second Use Case", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Polish & Share", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    },
+    "7": {
+      "title": "Advanced Claude Code",
+      "lessons": {
+        "01": { "title": "Prototyping with Claude Code", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "02": { "title": "GitHub & Deployment", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "03": { "title": "Claude Code in the Terminal", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "04": { "title": "Multiple Sessions & Agent Workflows", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "05": { "title": "Project Memory & Complex Workflows", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "06": { "title": "The Loop: Codifying Judgment", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+      }
+    }
+  },
+  "stats": {
+    "lessons_completed": 0,
+    "challenges_completed": 0,
+    "hints_used": 0,
+    "streak_days": 0,
+    "longest_streak": 0,
+    "last_streak_date": ""
+  },
+  "badges": [],
+  "form_submitted": {
+    "midway": false,
+    "building": false,
+    "completion": false
+  }
+}
