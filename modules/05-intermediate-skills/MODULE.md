@@ -2,7 +2,7 @@
 module: 5
 title: "Intermediate Skills"
 description: "Go deeper with skills — custom creation, scheduling, best practices, CLAUDE.md mastery, and context files."
-lessons: 5
+lessons: 6
 ---
 
 # Module 5: Intermediate Skills
@@ -13,7 +13,8 @@ You've built your first skills and identified your use cases. Now it's time to g
 
 - Creating custom skills from scratch with proper structure
 - Scheduling and automating skills to run on their own
-- Best practices and patterns for reliable skills
+- Best practices and patterns for reliable skills (including Gotchas and avoiding over-prescription)
+- How to layer smaller focused skills rather than building one large skill
 - How CLAUDE.md powers everything (and how to write a great one)
 - Building context files that make Cowork feel personalized
 
@@ -24,8 +25,9 @@ You've built your first skills and identified your use cases. Now it's time to g
 | 01 | Creating Custom Skills | 5-10 min |
 | 02 | Scheduling & Automating Skills | 5-10 min |
 | 03 | Skill Best Practices & Patterns | 5-10 min |
-| 04 | CLAUDE.md Deep Dive | 5-10 min |
-| 05 | Context Files for Cowork | 5-10 min |
+| 04 | Layering Skills | 5-10 min |
+| 05 | CLAUDE.md Deep Dive | 5-10 min |
+| 06 | Context Files for Cowork | 5-10 min |
 
 ## By the End of This Module
 

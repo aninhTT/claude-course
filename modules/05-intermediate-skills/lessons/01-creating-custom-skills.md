@@ -87,6 +87,10 @@ The difference between a skill you use once and a skill you use every week comes
 - **Graceful failure.** The real world is messy — channels get renamed, APIs time out, data is missing. Plan for it.
 - **Test it immediately.** Don't write a 50-step skill and test it for the first time a week later. Build incrementally.
 
+### Skill Inspiration
+
+Not sure what to build? Browse real-world skill examples at **[skills.sh](https://skills.sh/)** — a community library of skills you can study, copy, and adapt. It's a great way to see what's possible and get unstuck when you're starting from a blank page.
+
 ### Iterating on Skills
 
 Your first version will not be perfect. That's fine. The pattern is:

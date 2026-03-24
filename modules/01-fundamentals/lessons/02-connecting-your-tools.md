@@ -53,3 +53,19 @@ Let's get your core tools connected. We'll do this step by step.
 - "What Slack messages did I get this morning?"
 
 **Success criteria:** At least 2 core connectors connected and verified with a test query.
+
+## Challenge
+
+**Cross-Tool Query**
+
+The goal: Use your connected tools together to answer a real work question in one ask.
+
+Try this prompt right here in this session:
+
+> "Look at my calendar for today and tell me which meetings I should prep for, and check if there are any relevant emails related to those meetings."
+
+This requires Claude to pull from **two connectors at once** (Calendar + Gmail) and synthesize the results into something actually useful.
+
+Give it a shot — ask that question (or your own version of it) and let's see what happens. I'll step back and let you drive.
+
+**Success criteria:** Claude successfully combines data from at least 2 connectors to answer a single real-work question.

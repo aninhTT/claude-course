@@ -112,6 +112,36 @@ This creates a virtuous cycle:
 
 Over time, your skills get smarter because they accumulate real-world lessons. The skills that get used every day aren't the ones that were perfect on day one — they're the ones that learned from every failure.
 
+### Building Your Gotchas Section
+
+The highest-signal content in any skill is the **Gotchas section** — and it's the one most people never write.
+
+Gotchas are the specific failure points Claude has actually hit when running your skill: wrong output format, missed edge case, misread context, an API that returned nothing. When your skill misbehaves, don't just fix the output and move on. Add a Gotcha entry so it doesn't happen again.
+
+```markdown
+## Gotchas
+
+- The Slack search API returns nothing for archived channels — always check if the channel exists before searching. Fall back to #general if not found.
+- If the calendar returns multiple events with the same name, treat them as separate prep items, not duplicates.
+- "This week" means Mon–Sun, not the last 7 days. Use explicit date range logic.
+```
+
+Think of Gotchas as a running log of "here's where this skill gets confused." The more you run a skill, the more valuable this section becomes. Every failure is a chance to make the skill smarter permanently. **Treat it as living documentation** — the skills that get used every day aren't the ones that were perfect on day one, they're the ones that learned from every run.
+
+### Don't Railroad Claude
+
+Because skills are reusable across many different contexts, be careful about over-specifying your instructions. Claude will generally try to stick to your steps closely — which is what you want — but if your instructions are too rigid, Claude won't adapt well to edge cases or slightly different situations.
+
+The goal is to give Claude the **information and constraints** it needs, while leaving room for judgment on the *how*.
+
+**Too prescriptive (railroading):**
+> "Step 3: Write exactly 3 bullet points per section, each between 10 and 15 words, using sentence case, with no punctuation at the end."
+
+**Better (clear intent, flexible execution):**
+> "Step 3: Write a concise bullet summary per section. Keep bullets short and scannable."
+
+Prescribe the **what** and the **why**. Let Claude figure out the how. This makes your skills more robust across the range of situations they'll encounter.
+
 ### Common Pitfalls
 
 **Over-engineering:** Your skill doesn't need to handle every edge case on day one. Build for the 80% case first.
@@ -149,6 +179,8 @@ Time to audit and improve your existing skills.
 - Add or improve error handling
 - Define the output format explicitly
 - Add inputs for flexibility
+- Add a Gotchas section based on any failures you've seen
+- Review steps for over-prescription — loosen anything that railroads Claude into a single rigid path
 
 **Step 4:** Save your improvement notes at `workspace/skill-audit.md` so you can reference them later.
 

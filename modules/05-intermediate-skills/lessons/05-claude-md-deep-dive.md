@@ -1,12 +1,12 @@
 ---
 module: 5
-lesson: 4
+lesson: 5
 title: "CLAUDE.md Deep Dive"
 difficulty: intermediate
-prerequisites: "5.03"
+prerequisites: "5.04"
 ---
 
-# Lesson 5.04: CLAUDE.md Deep Dive
+# Lesson 5.05: CLAUDE.md Deep Dive
 
 ## Learn
 

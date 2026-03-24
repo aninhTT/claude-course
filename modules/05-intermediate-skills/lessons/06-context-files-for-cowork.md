@@ -1,12 +1,12 @@
 ---
 module: 5
-lesson: 5
+lesson: 6
 title: "Context Files for Cowork"
 difficulty: intermediate
-prerequisites: "5.04"
+prerequisites: "5.05"
 ---
 
-# Lesson 5.05: Context Files for Cowork
+# Lesson 5.06: Context Files for Cowork
 
 ## Learn
 

@@ -2,7 +2,7 @@
 module: 3
 title: "Skills & Plugins Primer"
 description: "Understand skills and plugins â€” find them, copy them, and build your first reusable skill."
-lessons: 4
+lessons: 5
 ---
 
 # Module 3: Skills & Plugins Primer
@@ -14,6 +14,7 @@ Now that you know Claude Code and Cowork, it's time to learn about **plugins** â
 - What plugins are (skills + commands + connectors) and how they extend Claude Code and Cowork
 - Where skills come from â€” pre-made, copied, or custom-built
 - How to copy and customize an existing skill
+- How to install and use the skill-creator skill
 - How to build your first reusable skill from scratch
 
 ## Lessons
@@ -23,7 +24,8 @@ Now that you know Claude Code and Cowork, it's time to learn about **plugins** â
 | 01 | What Are Skills & Plugins? | 5-10 min |
 | 02 | Where Skills Come From | 5-10 min |
 | 03 | Copy Your First Skill | 5-10 min |
-| 04 | Build Your First Skill | 5-10 min |
+| 04 | Meet the Skill Creator Skill | 5-10 min |
+| 05 | Build Your First Skill | 5-10 min |
 
 ## By the End of This Module
 
