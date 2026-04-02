@@ -1,12 +1,12 @@
 ---
 module: 1
-lesson: 5
+lesson: 6
 title: "Your First Build"
 difficulty: beginner
-prerequisites: "1.04"
+prerequisites: "1.05"
 ---
 
-# Lesson 1.05: Your First Build
+# Lesson 1.06: Your First Build
 
 ## Learn
 

@@ -2,7 +2,7 @@
 module: 1
 title: "Fundamentals"
 description: "Getting started with Claude Code — what it is, how it differs from Chat and Cowork, connecting your tools, and your first build."
-lessons: 5
+lessons: 6
 ---
 
 # Module 1: Fundamentals
@@ -15,6 +15,7 @@ Welcome to the foundation. This module covers everything you need to start using
 - How to connect your tools (Slack, Gmail, Calendar, Granola, and more)
 - Why folders are the foundation of everything in Claude Code
 - How to have your first productive conversation with Claude Code
+- How to find and manage Claude's outputs on your computer
 - How to build your first useful artifact
 
 ## Lessons
@@ -25,7 +26,8 @@ Welcome to the foundation. This module covers everything you need to start using
 | 02 | Connecting Your Tools | 5-10 min |
 | 03 | Why Folders Matter | 5-10 min |
 | 04 | Your First Conversation | 5-10 min |
-| 05 | Your First Build | 5-10 min |
+| 05 | Finding Your Outputs | 5-10 min |
+| 06 | Your First Build | 5-10 min |
 
 ## By the End of This Module
 

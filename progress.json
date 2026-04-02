@@ -18,7 +18,8 @@
         "02": { "title": "Connecting Your Tools", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "03": { "title": "Why Folders Matter", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "04": { "title": "Your First Conversation", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
-        "05": { "title": "Your First Build", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+        "05": { "title": "Finding Your Outputs", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "06": { "title": "Your First Build", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
       }
     },
     "2": {

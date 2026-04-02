@@ -43,7 +43,7 @@ When someone starts a conversation in this folder:
 
 | Module | Folder | Lessons |
 |--------|--------|---------|
-| 1. Fundamentals | `01-fundamentals` | 5 |
+| 1. Fundamentals | `01-fundamentals` | 6 |
 | 2. Cowork | `02-cowork` | 4 |
 | 3. Skills & Plugins Primer | `03-skills-primer` | 5 |
 | 4. Use Case Thinking | `04-use-cases` | 4 |
