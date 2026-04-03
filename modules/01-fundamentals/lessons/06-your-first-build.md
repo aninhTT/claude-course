@@ -27,9 +27,9 @@ Sometimes if you're building something that feels more complex — an interactiv
 
 ### Building in the Workspace
 
-For this lesson, we'll build inside the `workspace/` folder that's part of this course. This is your sandbox — build freely here.
+For this lesson, we'll build inside the `workspace/` folder that's part of this course folder — the same folder you opened to start this course. If you go find that course folder on your computer (in Finder or File Explorer), you'll see `workspace/` right inside it. This is your sandbox — build freely here.
 
-> 💡 **Remember:** Everything Claude creates lives in your folder. After Claude builds something, check `workspace/` to see the files it created. You can always find what Claude made by looking in the folder you told it to build in.
+> 💡 **Remember:** Everything Claude creates lives in your folder. After Claude builds something, check the `workspace/` folder inside your course folder to see the files it created. You can always find what Claude made by looking in the folder you told it to build in.
 
 ### The Build Pattern
 
@@ -64,9 +64,9 @@ Let's build something that only Code can do — a simple, functional app.
 
 **Step 2:** Tell Claude what you want to build. Be specific about what it should do and who it's for. For example:
 
-> "Build me a simple meeting cost calculator app in workspace/. It should let me enter the number of attendees, average salary level, and meeting duration, then calculate the estimated cost. Make it look clean and professional."
+> "Build me a simple meeting cost calculator app in the workspace/ folder. It should let me enter the number of attendees, average salary level, and meeting duration, then calculate the estimated cost. Make it look clean and professional."
 
-**Step 3:** Check what Claude created. Look in `workspace/` for the files. If it's a web app (HTML file), Claude can help you open it. Try it out — does it work?
+**Step 3:** Check what Claude created. Go find the `workspace/` folder inside your course folder and look for the files Claude made. If it's a web app (HTML file), Claude can help you open it. Try it out — does it work?
 
 **Step 4:** Ask Claude to improve it. "Add a dark mode toggle," "Make the font bigger," "Add an export button" — iterate until you're happy.
 

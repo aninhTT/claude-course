@@ -11,15 +11,19 @@
 
 ### Course Commands
 
+Type these as a message to navigate the course:
+
 | Command | Action |
 |---------|--------|
-| `/course` | Course menu + progress |
-| `/lesson` | Continue current lesson |
-| `/skip 2.03` | Jump to any lesson |
-| `/progress` | Detailed stats + badges |
-| `/hint` | Help with current exercise |
-| `/check` | Validate current exercise |
-| `/exit` | Leave course with summary |
+| `course` | Course menu + progress |
+| `lesson` | Continue current lesson |
+| `skip 2.03` | Jump to any lesson |
+| `progress` | Detailed stats + badges |
+| `hint` | Help with current exercise |
+| `check` | Validate current exercise |
+| `exit` | Leave course with summary |
+
+> **CLI users:** These also work as slash commands (`/course`, `/lesson`, etc.) in the terminal.
 
 ### When to Use What
 

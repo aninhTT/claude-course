@@ -53,14 +53,16 @@ Please review these if you haven't already. They're important context for everyt
 - **Practice** — You build something real with Claude's guidance
 - **Challenge** — A stretch goal for you to try independently
 
-**Commands:** You have a set of commands to navigate:
-- `/course` — See the full course menu
-- `/lesson` — Start or resume where you left off
-- `/skip 2.03` — Jump to any lesson
-- `/progress` — See your stats and badges
-- `/hint` — Get help on an exercise
-- `/check` — Validate your work
-- `/exit` — Leave the course with a summary
+**Commands:** You have a set of commands to navigate. Just type these as a message:
+- `course` — See the full course menu
+- `lesson` — Start or resume where you left off
+- `skip 2.03` — Jump to any lesson
+- `progress` — See your stats and badges
+- `hint` — Get help on an exercise
+- `check` — Validate your work
+- `exit` — Leave the course with a summary
+
+> 💡 **Using the CLI?** If you're running this course in Claude Code's terminal (CLI), these also work as slash commands — type `/course`, `/lesson`, etc. In the **desktop app**, just type the keyword as a regular message.
 
 **Building real things:** The exercises in this course are NOT pre-made problems with pre-made answers. You'll build things that are **actually useful to you and your role**. Claude will help you identify what to build and guide you through it.
 
@@ -88,4 +90,4 @@ Either option is fine. As you learn more, you'll understand exactly what Claude 
 
 Let's start with Module 1: Fundamentals. You'll learn the difference between Chat, Cowork, and Claude Code — and have your first conversation with Claude Code by the end.
 
-Type `/lesson` to begin, or `/course` to see the full course map first.
+Type `lesson` to begin, or `course` to see the full course map first.
