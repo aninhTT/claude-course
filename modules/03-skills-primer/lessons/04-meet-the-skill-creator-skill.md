@@ -12,6 +12,8 @@ prerequisites: "3.03"
 
 Before you build your first skill from scratch, there's a tool that's going to make it a lot easier: the **skill-creator skill**. It's a meta-skill — a skill that helps you build other skills.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 Here's what makes it powerful: instead of staring at a blank SKILL.md file trying to remember the right structure, you describe what you want in plain language and the skill-creator generates a properly structured skill for you. It knows the SKILL.md format, the right frontmatter fields, how to write clear workflow steps, and how to structure error handling.
 
 ### What the Skill Creator Does
@@ -98,6 +100,8 @@ Use the skill-creator to generate a skeleton for a task you do every week. Pick 
 Save the generated SKILL.md to `workspace/skills/` with a folder name that follows verb-noun convention (e.g., `workspace/skills/draft-standup/SKILL.md`).
 
 You'll polish this skill properly in later lessons — for now, just get a real foundation in place.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success Criteria:**
 - Generated a skill scaffold for a real weekly task

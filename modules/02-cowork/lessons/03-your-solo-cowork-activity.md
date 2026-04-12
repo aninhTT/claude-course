@@ -12,6 +12,8 @@ prerequisites: "2.02"
 
 You've now seen how to write a clear Cowork task and run it successfully. The best way to get better at directing Cowork is to **use it for real work** — not course exercises, but actual tasks from your day.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 > 💡 **Quick reminder:** You can always type `/course` to see the full course menu, `/skip` to jump ahead, or `/hint` if you need help. There's also a cheat sheet at `reference/cheat-sheet.md` with all the commands, core agreements, and templates — handy to keep nearby. Feeling comfortable with Cowork already? Skip ahead with `/skip 2.04` anytime.
 
 This lesson is mostly practice. Here's a quick refresher on the principles before you dive in:
@@ -93,5 +95,7 @@ This template is for you — make it practical and specific to your work.
 **Step 3: Save it.**
 
 Have Claude save the template to `workspace/cowork-task-template.md`.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Created a Cowork task template file in `workspace/` that contains at least 3 tips or instruction patterns based on your experience.

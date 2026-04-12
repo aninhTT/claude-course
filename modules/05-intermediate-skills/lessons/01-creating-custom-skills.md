@@ -151,6 +151,8 @@ Your skill has a slash command — that's one way to trigger it. But good skills
 
 3. If auto-detection doesn't work, iterate on your skill's description and name until it does.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success Criteria:**
 - Skill triggers correctly via slash command
 - Skill auto-loads when you describe the task in natural language

@@ -52,4 +52,6 @@ Let's create your personal context file.
 
 Expand your context file with a "tools and systems" section. List every tool you use regularly and how it fits into your work. Then ask Claude: "Given my tools and workflows, where are the biggest gaps that Claude Code or Cowork could fill?"
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Added tools/systems section to context file and got Claude's gap analysis.

@@ -12,6 +12,8 @@ prerequisites: "2.03"
 
 So far, you've been giving Cowork single, self-contained tasks. That works great for many things — but some of the most valuable work involves **complex tasks** that need to be broken down before any agent (human or AI) can handle them well.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 This lesson teaches you how to think about breaking work into pieces that Cowork can execute effectively.
 
 ### What Makes a "Good Size" for an Agent Task
@@ -177,5 +179,7 @@ For each transition from Cowork to human (or vice versa), describe:
 - What does Cowork hand off?
 - What format is it in?
 - What does the human need to do with it?
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Designed a workflow with clear human/Cowork task assignments and well-defined handoffs between them. The design reflects realistic understanding of what Cowork is good at and what requires human judgment.

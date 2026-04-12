@@ -8,6 +8,7 @@
 2. **Progress Over Perfection** — Keep moving forward. Done is better than perfect.
 3. **Speed Bumps = Learning** — Unexpected results aren't failure — they're how you learn these tools.
 4. **Be Okay with the Imperfect** — AI isn't always perfect on the first try. The skill is in iterating.
+5. **Always Verify Output** — Claude is confident even when wrong. Check assumptions, catch gaps, and test edge cases before trusting any output.
 
 ### Course Commands
 
@@ -110,6 +111,18 @@ Deliver to: [Where to send it — Slack DM, file, etc.]
 - New session: Check app menu
 - Switch sessions: Session sidebar
 - Plan mode: Toggle in interface or ask "let's plan this first"
+
+### Discernment Checklist
+
+Ask these after every Claude output:
+
+1. **What did Claude assume?** — Identify unstated assumptions
+2. **What's missing?** — Look for gaps in context, edge cases, or requirements
+3. **What could break?** — Think about real-world failure scenarios
+4. **Does it match my goal?** — Compare output to your original intent
+5. **Would I trust this from a colleague?** — Apply the same review standard you'd use for human work
+
+For deeper evaluation, use the [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a).
 
 ### Common Patterns
 

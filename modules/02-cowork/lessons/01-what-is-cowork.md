@@ -21,6 +21,8 @@ videos:
 
 In Module 1, you learned the difference between Chat, Cowork, and Claude Code. Now it's time to go deep on Cowork — your autonomous task executor.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### Cowork: Your Task Executor
 
 Cowork is built on the same AI "brain" as Claude Code, but it's optimized for a different job: **autonomous task completion**. Where Claude Code is about collaborative building (you and Claude working together, step by step), Cowork is about delegation. You give it instructions, point it at the right context, and let it work.
@@ -57,7 +59,7 @@ The biggest difference between Cowork and Chat: Cowork **executes autonomously**
 
 This is why Cowork is the right choice for complex, multi-step work. A task like "compile all the decisions from this week's meetings and draft a summary" would take a dozen chat messages back and forth. In Cowork, it's one task instruction and Cowork handles it end to end.
 
-Also important: **Cowork does NOT have plan mode.** Plan mode is a Claude Code feature (and you should always use it when building). Cowork just executes. This means your instructions need to be clear upfront because Cowork will take them and run.
+Also important: **Cowork does NOT have plan mode.** Plan mode is a Claude Code feature (and you should always use it when building). Cowork just executes. This means your instructions need to be clear upfront — state your goal clearly, whether that's a sentence, a paragraph, or even just dictating your thoughts out loud. A great pattern: state your goal, then ask Cowork to state it back to you and help you clarify before it starts working. This "state it back" loop catches misunderstandings before Cowork runs in the wrong direction.
 
 ### When to Use Cowork
 

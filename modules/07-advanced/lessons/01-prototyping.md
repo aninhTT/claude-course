@@ -122,4 +122,6 @@ Take your prototype and make it share-worthy. Not production-ready — but good 
 - What edge cases are missing?
 - How much additional effort would it take — hours, days, weeks?
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Iterated on the prototype based on feedback. Cleaned it up to demo quality. Documented what would be needed to make it production-ready.

@@ -17,6 +17,8 @@ videos:
 
 The fastest way to get a working skill is to copy one that already exists and customize it. In this lesson, you'll do exactly that — copy a real skill, understand its structure, and then actually run it.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The Copy-and-Customize Flow
 
 1. **Find the skill** — Get the source (folder, GitHub repo, or shared file)
@@ -111,5 +113,7 @@ Now customize the copied skill. Make at least 3 changes that make it more useful
 - Modify the instructions to match your team's style
 
 After customizing, run it again and compare the output to the original.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Made at least 3 meaningful customizations to the copied skill and tested the modified version.

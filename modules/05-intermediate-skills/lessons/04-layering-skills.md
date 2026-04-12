@@ -104,6 +104,8 @@ Build the second skill in your set and confirm the two work together without con
 
 **Step 3:** If there's any overlap or conflict, refine the skill descriptions and scope so they're clearly differentiated.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success Criteria:**
 - Second skill built fully with proper structure
 - Both skills auto-detect correctly for their respective contexts

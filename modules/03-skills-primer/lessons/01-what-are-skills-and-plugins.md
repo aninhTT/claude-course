@@ -17,6 +17,8 @@ videos:
 
 You've used Claude Code to build things and Cowork to execute tasks. But so far, every task has been one-off — you describe what you want, Claude does it, and that's it. What if you could save those workflows so they run again with a single command? That's where **plugins** come in.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 There's a short video that walks through skills and plugins visually if you'd like to see them in action: https://www.loom.com/share/2dff9697e5b8478da2f597aa4b76c0c7
 
 ### What Are Plugins?
@@ -85,5 +87,7 @@ Think about your typical work week. Identify **one recurring task** you do at le
 4. What the output should look like
 
 Don't build it yet — just describe the concept.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Described one potential skill idea with clear purpose, trigger, required tools, and expected output.

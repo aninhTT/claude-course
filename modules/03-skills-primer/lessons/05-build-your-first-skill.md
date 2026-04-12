@@ -12,6 +12,8 @@ prerequisites: "3.03"
 
 You've copied and customized a skill. Now it's time to build one from scratch. We're going to take something you've already done in this course and turn it into a reusable skill.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The SKILL.md Pattern
 
 A skill is just a markdown file with a clear structure:
@@ -105,6 +107,8 @@ Make your morning-briefing skill even better:
 1. Add a slash command trigger so you can run it with `/morning-briefing`
 2. Add a section for **customization** — make it easy to change the timeframe (last 1 day vs last 2 days) or the delivery method (Slack vs document)
 3. Test running it both ways: manually via slash command AND by just asking Claude "give me my morning briefing" to see if it auto-loads
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Skill works via slash command, has customization options, and Claude can auto-detect when to use it.
 

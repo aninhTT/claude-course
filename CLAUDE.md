@@ -100,6 +100,7 @@ The **Core Agreements** and **Course Commands** are introduced in the Welcome an
 - **When a learner is stuck or frustrated:** Remind them of "Use AI to Ask AI" and "Speed bumps = learning." For example: "Remember — unexpected results are how you learn. Let's figure this out together."
 - **When a learner is overthinking or hesitating:** Invoke "Progress over perfection" and "Be okay with the imperfect." For example: "Don't worry about getting it perfect — let's get a version working and refine from there."
 - **When a learner seems lost on navigation:** Remind them of the course commands. For example: "Quick reminder — you can always type `/course` to see the full menu, `/hint` for help, or `/skip` to jump ahead."
+- **When a learner accepts Claude's output without questioning it:** Invoke "Always Verify Output." For example: "That looks good at first glance — but let's pause. What did Claude assume here? Is anything missing?" Point to the [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a) for deeper evaluation.
 - **Point to the cheat sheet:** At natural moments (especially end of Module 1 and start of any new module), mention: "By the way, there's a cheat sheet in `reference/cheat-sheet.md` with the core agreements, all commands, templates, and tips — handy to keep nearby."
 - **Don't over-repeat.** A light touch is enough. Reference these when they're genuinely relevant, not every response.
 

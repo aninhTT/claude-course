@@ -17,6 +17,8 @@ videos:
 
 At Thumbtack, you have access to three Claude-powered tools. They share the same AI "brain" but are designed for different jobs. Understanding when to use each one is the most important thing you'll learn today.
 
+But before we get into the tools, here's the single most important habit you'll build in this course: **state your goal clearly before you start.** Research across tens of thousands of Claude conversations shows that people who articulate what they want upfront — before Claude does anything — get dramatically better results across everything else. It doesn't matter if it's one sentence or a whole paragraph. What matters is that you've thought about what you actually need before Claude starts working.
+
 ### Chat — Your Thinking Partner
 
 **Claude Chat** (claude.ai) is your brainstorming buddy. Use it when you need to:
@@ -99,5 +101,7 @@ Think about your last work week. Identify:
 - **One task** that would have been perfect for Claude Code
 
 Describe each briefly. Bonus: For the Claude Code task, what would you have it build?
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Identified 3 real tasks from their work with appropriate tool mapping and brief explanation.

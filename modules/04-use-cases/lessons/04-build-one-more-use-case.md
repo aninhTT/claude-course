@@ -98,4 +98,6 @@ Take the use case you just built and think about scale:
 
 Write up your answers in the use case file as a "Future Vision" section.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Added a "Future Vision" section to your use case file covering automation, shareability, and v2 improvements.

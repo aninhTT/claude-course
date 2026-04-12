@@ -185,4 +185,6 @@ For example, a Friday afternoon weekly review at 4:00 PM would use cron expressi
 
 Save your scheduling plan in `workspace/workflow-schedule.md`.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Documented a memory strategy with file inventory, update cadence, and boundary decisions. Designed a scheduling plan with timing, output destination, and failure handling.

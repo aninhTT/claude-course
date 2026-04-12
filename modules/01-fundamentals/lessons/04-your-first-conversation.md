@@ -17,6 +17,8 @@ videos:
 
 You've learned what Claude Code is, connected your tools, and understand why folders matter. Now let's actually have a real, productive conversation with Claude Code.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The Art of Good Instructions
 
 Claude Code is incredibly capable, but it works best when you give it clear context. Here are the key principles:

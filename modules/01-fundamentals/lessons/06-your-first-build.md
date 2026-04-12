@@ -12,6 +12,8 @@ prerequisites: "1.05"
 
 In the last lesson, you had a conversation with Claude Code and got useful output. Now let's take the next step — actually **building something** that only Claude Code can do.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The Magic of Claude Code: You Don't Need to Write Code
 
 Here's the most important thing to understand: **Claude Code can build things that require code — and you don't have to write any of it.** Claude writes the code for you. You just describe what you want.
@@ -86,5 +88,9 @@ For example:
 - A **project tracker** that you can update with status and share with your team
 
 Ask Claude to help you figure out the right thing to build if you're not sure. Remember: you don't need to know how to code. Just describe what you want.
+
+Once you've built it, take a moment: look at what Claude created and find one assumption it made that you didn't explicitly state.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Built a more ambitious interactive tool that uses connected tool data. More complex than the Practice build.

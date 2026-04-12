@@ -36,6 +36,9 @@ Things will break. You'll get unexpected results. That's not failure — that's 
 ### 4. Be Okay with the Imperfect
 AI outputs aren't always perfect on the first try. That's normal. The skill is in knowing how to iterate, refine, and guide the AI to what you need.
 
+### 5. Always Verify Output
+Claude is confident even when it's wrong. Before you trust any output, check the assumptions, look for gaps, and think about what could break. The [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a) is a great framework for this — bookmark it.
+
 ## Our Operating Guardrails
 
 These still apply when working with AI tools:

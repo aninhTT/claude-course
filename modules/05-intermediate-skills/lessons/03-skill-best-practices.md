@@ -114,9 +114,9 @@ Over time, your skills get smarter because they accumulate real-world lessons. T
 
 ### Building Your Gotchas Section
 
-The highest-signal content in any skill is the **Gotchas section** — and it's the one most people never write.
+Here's something most skill builders learn the hard way: **the highest-signal content in any skill is the Gotchas section.** It's also the one most people never write.
 
-Gotchas are the specific failure points Claude has actually hit when running your skill: wrong output format, missed edge case, misread context, an API that returned nothing. When your skill misbehaves, don't just fix the output and move on. Add a Gotcha entry so it doesn't happen again.
+Gotchas are the specific failure points Claude has actually hit when running your skill: wrong output format, missed edge case, misread context, an API that returned nothing. When your skill misbehaves, don't just fix the output and move on. Add a Gotcha entry so it doesn't happen again. Ideally, you'll update your skill over time to capture these gotchas as you discover them — every failure is data that makes the skill permanently smarter.
 
 ```markdown
 ## Gotchas
@@ -155,6 +155,29 @@ Prescribe the **what** and the **why**. Let Claude figure out the how. This make
 **Ignoring failure modes:** Happy path skills break in the real world. Add error handling before you automate.
 
 **Copying without understanding:** Borrowing patterns from other skills is great. Copying a whole skill and changing three words is a recipe for confusion.
+
+### Skills as a File System
+
+One more pattern that separates good skills from great ones: **a skill is a folder, not just a markdown file.** Think of the entire file system as a form of context engineering and progressive disclosure. Tell Claude what files are in your skill, and it will read them at appropriate times.
+
+The simplest form of progressive disclosure is to point to other markdown files for Claude to use. For example, you might split detailed function signatures and usage examples into `references/api.md`. Or if your end output is a markdown file, you might include a template in `assets/` for Claude to copy and use.
+
+```
+my-skill/
+├── SKILL.md              # Main skill file — the entry point
+├── references/
+│   └── api.md            # Detailed function signatures and usage examples
+├── templates/
+│   └── output-template.md # Template for the expected output format
+├── assets/
+│   └── example-data.csv  # Sample data Claude can reference
+└── examples/
+    └── good-output.md    # Example of what "good" looks like
+```
+
+**Why this matters:** Claude doesn't need everything upfront. By organizing your skill as a folder with referenced files, Claude reads what it needs when it needs it — keeping the main SKILL.md focused and the supporting detail available on demand. You can have folders of references, scripts, examples, and templates, all of which help Claude work more effectively without bloating the core instructions.
+
+In your SKILL.md, just reference these files naturally: "Refer to `references/api.md` for the full API specification" or "Use the template in `templates/output-template.md` as the starting point for the output." Claude will read them when it needs them.
 
 ---
 
@@ -217,6 +240,8 @@ workspace/skills/your-skill-name/
   SKILL.md
   README.md
 ```
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success Criteria:**
 - README.md covers purpose, prerequisites, usage, output, limitations, and example

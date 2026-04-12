@@ -173,6 +173,8 @@ workspace/evaluation-system/
   sample-report.md   # An example evaluation output
 ```
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:**
 - Rubric handles edge cases and uses a scoring scale
 - Tested on 3+ different inputs with consistent results

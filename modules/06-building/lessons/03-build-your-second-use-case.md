@@ -74,4 +74,6 @@ Compare build #1 and build #2 side by side.
 
 Save your comparison in `workspace/build-comparison.md`.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Compared both builds across multiple dimensions. Documented specific improvements from the review process. Saved comparison in workspace/.

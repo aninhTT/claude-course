@@ -125,4 +125,6 @@ Build a reusable multi-agent workflow — one you could run again next week, nex
 
 **Step 3:** Test the documentation by running the workflow one more time using only the documented instructions. Does the documentation capture everything someone would need?
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Documented a reusable multi-agent pattern with clear roles, coordination steps, and instructions. Saved in `workspace/`.

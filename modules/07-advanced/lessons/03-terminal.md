@@ -99,4 +99,6 @@ Some ideas:
 
 Ask Claude to help you design and build the workflow. The goal is to create something that leverages the terminal's unique strengths — scripting, piping, automation — in a way the app can't easily replicate.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Created a terminal-specific workflow or script that leverages capabilities unique to the terminal (scripting, piping, automation, or chaining with other tools). Saved the script or workflow in `workspace/`.

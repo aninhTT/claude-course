@@ -95,4 +95,6 @@ Deploy something useful. Pick the best artifact you've created during this cours
 
 A good README turns a file on GitHub into something someone else can actually use without asking you questions.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Created a GitHub repo with a deployed artifact and a README.md that explains what it is and how to use it.

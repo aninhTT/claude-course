@@ -65,4 +65,6 @@ After each run, note:
 
 Save your notes in `workspace/build-1-notes.md`.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Ran the use case 3 times with different real data. Documented what worked, what broke, and what needs improvement.

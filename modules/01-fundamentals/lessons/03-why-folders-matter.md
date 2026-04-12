@@ -17,6 +17,8 @@ videos:
 
 Here's something that surprises most people: **folders are the foundation of everything** in Claude Code and Cowork. This isn't just about file organization — it's about how Claude understands your work.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The Mental Model
 
 When you open a folder in Claude Code, Claude reads the files in that folder to understand context. The most important file? **CLAUDE.md** — a special file at the root of your folder that tells Claude how to behave.
@@ -72,5 +74,7 @@ Here's a challenge: **go physically find this course folder on your computer.** 
 Browse around — open the `modules/` folder, peek at a few `.md` files in a text editor, look at the `workspace/` and `reference/` folders. This is what a Claude Code project looks like under the hood. Everything Claude is reading and responding to is just files in this folder.
 
 Understanding how to find and browse the actual files on your computer is a skill you'll use constantly — whether it's checking what Claude created, organizing your projects, or sharing your work with others.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Found the course folder on your computer, browsed the file structure, and opened at least one .md file in a text editor to see what's inside.

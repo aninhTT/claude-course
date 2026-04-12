@@ -12,6 +12,8 @@ prerequisites: "3.01"
 
 Before you build a skill from scratch, you should know: **you don't always have to start from zero.** Skills come from three places, and knowing all three saves you a ton of time.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### 1. Skills Already Created (Pre-Made)
 
 Some skills come built-in or are available through your organization's setup. These are ready to use — just find them and run them.
@@ -76,5 +78,7 @@ Find a skill that's **close to something you need but not quite right.** Describ
 3. Whether you'd copy-and-modify it or build from scratch
 
 This is direct prep for the next lesson where you'll actually copy a skill.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Identified a specific skill and described at least 2 concrete modifications to make it fit their use case.

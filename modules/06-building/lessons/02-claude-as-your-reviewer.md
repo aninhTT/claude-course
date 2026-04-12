@@ -43,6 +43,20 @@ This pattern scales to anything: documents, emails, project plans, presentations
 
 The best builders review continuously, not just at the end. After each major step in a build, pause and ask Claude: "Before we move on, is there anything wrong with what we just did?" This catches issues early when they're cheap to fix, rather than late when they require rework.
 
+### You as the Reviewer
+
+Claude reviewing Claude is powerful — but it's not enough. There's a whole category of issues that only you can catch: misaligned goals, missing business context, assumptions about your team or workflow that Claude doesn't know are wrong.
+
+Think of it this way: **review Claude's output the way you'd review a junior colleague's work.** They might produce something technically solid, but you still need to check:
+- **Does it actually match what I asked for?** Compare the output to your original goal, not just whether it "looks good."
+- **What did Claude assume?** Identify any unstated assumptions — about your audience, your tools, your timeline, your preferences.
+- **Would this work on real data?** Claude often tests against ideal scenarios. Think about the messy, real-world version.
+- **What's missing?** Look for gaps — edge cases, error states, things Claude didn't think to include.
+
+For a more structured approach, use Thumbtack's [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a) — it gives you a systematic framework for evaluating any AI output.
+
+The goal isn't to distrust Claude. It's to recognize that **you bring context Claude doesn't have**, and your review is what turns a good output into one that actually works for your specific situation.
+
 ### Using the Skill Creator Plugin as a Reviewer
 
 There's a powerful plugin called **Skill Creator** that can critique and improve your skill builds. Here's how to use it:
@@ -88,5 +102,7 @@ Your review prompt should:
 Save it as `workspace/review-prompt.md` (or as a skill if you're feeling ambitious).
 
 Test it on your build from Lesson 6.01 to make sure it produces useful feedback.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Created a reusable review prompt template that covers 4+ dimensions. Tested it on an existing build and verified it produces actionable feedback. Saved in workspace/.

@@ -146,6 +146,8 @@ Draft a set of instructions at `workspace/my-cowork-context/global-instructions-
 
 Then actually paste them into your Cowork settings: **Settings → Cowork → Edit Global Instructions**.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success Criteria:**
 - Drafted Global Instructions that reference your context folder structure
 - Instructions cover: what to read, how to use templates, where to save, naming conventions

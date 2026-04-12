@@ -61,7 +61,11 @@ In plan mode, Claude will:
 
 ### Plan Mode vs Cowork
 
-Remember: **Cowork does NOT have plan mode.** Cowork is a task executor — you give it clear instructions and it runs. That's why you need to do your planning before giving Cowork a task. Plan in Claude Code, then hand the execution to Cowork if appropriate.
+Remember: **Cowork does NOT have plan mode.** This is where Plan Mode becomes your best friend in Claude Code — it forces goal clarification before execution. But Cowork doesn't have these guardrails in the same way. With Cowork, you need to be very clear about what you're looking for upfront. That's why it's helpful to have Cowork interview you to help clarify what your actual goal is before it starts working.
+
+Here's a practical pattern: when you start a Cowork task, state your goal, then ask Cowork to state it back to you and help you clarify before it does anything. This "state it back" loop is the Cowork equivalent of Plan Mode — it surfaces misunderstandings before Cowork spends time executing in the wrong direction.
+
+For Claude Code, Plan Mode handles this for you. Plan in Code, then hand the execution to Cowork if appropriate.
 
 There's a great demo of plan mode in action: https://www.loom.com/share/45414690b4254ca6a62d3f65b2c24d43
 
@@ -85,5 +89,7 @@ Let's use plan mode for one of your use cases from Lesson 4.02.
 ## Challenge
 
 Use plan mode for a second use case from your list. This time, explicitly ask Claude to present 2-3 different approaches and the trade-offs of each. Pick the best one and refine the plan.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Created a plan with multiple approaches, evaluated trade-offs, and selected a final approach.

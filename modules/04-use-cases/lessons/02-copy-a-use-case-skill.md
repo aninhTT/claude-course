@@ -105,4 +105,6 @@ For your top use case, map out the full workflow:
 
 This comparison becomes the blueprint for what you'll build in Module 6.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Created a current vs. AI-assisted workflow comparison for your top use case.

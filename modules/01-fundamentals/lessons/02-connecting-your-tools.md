@@ -12,6 +12,8 @@ prerequisites: "1.01"
 
 Claude Code and Cowork become much more powerful when they can access your actual tools — Slack, Gmail, Calendar, Granola, and more. These connections are called **connectors** (or MCP integrations). They let Claude read from and interact with the tools you use every day.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### Core Connectors
 
 These are the ones you'll use most:
@@ -67,5 +69,7 @@ Try this prompt right here in this session:
 This requires Claude to pull from **two connectors at once** (Calendar + Gmail) and synthesize the results into something actually useful.
 
 Give it a shot — ask that question (or your own version of it) and let's see what happens. I'll step back and let you drive.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Claude successfully combines data from at least 2 connectors to answer a single real-work question.

@@ -101,6 +101,8 @@ Actually share one of your builds with a colleague or team. Get real feedback.
 
 **Step 4:** Document the feedback in `workspace/sharing-feedback.md`. What did you learn? What would you change based on the feedback?
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success criteria:** Shared a build with at least one other person. Collected and documented specific feedback. Identified at least one improvement based on the feedback.
 
 ---

@@ -106,6 +106,8 @@ Now put your reviewer hat on. Look at the CLAUDE.md you just created in the Prac
 
 **Step 4:** Improve your CLAUDE.md based on the feedback.
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success Criteria:**
 - Reviewed their own CLAUDE.md critically
 - Got feedback from Claude

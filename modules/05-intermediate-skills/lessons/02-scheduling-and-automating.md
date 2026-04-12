@@ -132,6 +132,8 @@ Design a complete automated system using 3 or more scheduled tasks that together
 
 Think about: What information flows between them? Are there dependencies (does one need to run before another)? What happens if one fails — do the others still work?
 
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
+
 **Success Criteria:**
 - Designed a system of 3+ scheduled tasks with clear schedules
 - Each task has a reason for its specific timing

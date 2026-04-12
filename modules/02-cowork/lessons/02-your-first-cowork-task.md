@@ -12,6 +12,8 @@ prerequisites: "2.01"
 
 In the last lesson, you explored Cowork and gave it a simple instruction. Now it's time to run a **real task** — one that uses your connected tools and produces something genuinely useful.
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 ### The Key Ingredients of a Good Cowork Task
 
 Every good Cowork task has four ingredients:
@@ -131,5 +133,9 @@ This is a complex workflow: research → compile → format → deliver. It's th
 **Example prompt to get you started:**
 
 > "Research what happened on my team this week by checking Slack channels and my email. Compile a weekly summary with highlights, decisions, and action items. Save it as a markdown document, and then send the summary to me as a Slack DM."
+
+Compare Cowork's output to what you actually wanted. What's the gap between what you asked for and what you got?
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** Ran a Cowork task that produced output AND delivered it somewhere (Slack message, document, or both).

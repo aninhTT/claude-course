@@ -17,6 +17,8 @@ videos:
 
 Here's something important to understand early: **where your outputs end up depends on which tool you're using.**
 
+> Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
+
 When you use **Chat** (claude.ai), everything stays in the conversation. Claude might generate a great summary, a table, or a draft — but it lives in that chat window. If you want it somewhere else, you have to copy and paste it yourself.
 
 When you use **Claude Code or Cowork**, it's completely different. These tools **run locally** — meaning they work directly with your computer's file system. When Claude creates a file, it's a real file sitting in a real folder on your machine. You can open it in any app, email it, move it around — it's yours.
@@ -65,5 +67,7 @@ Here's a stretch goal: **tell Claude to move that spreadsheet from your Claude F
 Don't move it yourself — ask Claude to do it. Then go check your Desktop and confirm it's there.
 
 This might seem small, but think about what just happened: you told Claude to reorganize your actual files, and it did. Claude Code doesn't just create things — it can move, rename, and organize files across your computer. That's the power of running locally. It's not answering questions in a chat bubble — it's working with your real file system.
+
+> **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 
 **Success criteria:** The spreadsheet was moved to your Desktop by Claude (not manually), and you physically confirmed it's there.
