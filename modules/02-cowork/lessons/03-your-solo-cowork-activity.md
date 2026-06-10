@@ -14,7 +14,7 @@ You've now seen how to write a clear Cowork task and run it successfully. The be
 
 > Already comfortable with this topic? Skip ahead anytime with `skip` followed by the next lesson number.
 
-> 💡 **Quick reminder:** You can always type `/course` to see the full course menu, `/skip` to jump ahead, or `/hint` if you need help. There's also a cheat sheet at `reference/cheat-sheet.md` with all the commands, core agreements, and templates — handy to keep nearby. Feeling comfortable with Cowork already? Skip ahead with `/skip 2.04` anytime.
+> 💡 **Quick reminder:** You can always ask for the full course menu, to jump ahead, or for a hint — just say it in plain language (in Cowork, slash commands like `/course` don't work; in Claude Code they do). There's also a cheat sheet at `reference/cheat-sheet.md` with all the commands, core agreements, and templates — handy to keep nearby. Feeling comfortable with Cowork already? Just say "skip to lesson 2.04" anytime.
 
 This lesson is mostly practice. Here's a quick refresher on the principles before you dive in:
 

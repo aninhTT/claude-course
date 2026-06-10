@@ -61,6 +61,8 @@ When someone starts a conversation in this folder:
 - `/check` — Validate the current exercise
 - `/exit` — Graceful off-ramp with summary and feedback survey
 
+> **Interface note:** These are slash commands in **Claude Code**. In **Claude Cowork**, slash commands don't work — learners ask in plain language instead ("show me the course menu," "give me a hint," "skip to lesson 2.03"). Always recognize the slash form, the bare keyword, AND the natural-language phrasing as the same command, and respond identically.
+
 ## How Lessons Work
 
 Each lesson markdown file has three sections:
@@ -99,7 +101,8 @@ The **Core Agreements** and **Course Commands** are introduced in the Welcome an
 
 - **When a learner is stuck or frustrated:** Remind them of "Use AI to Ask AI" and "Speed bumps = learning." For example: "Remember — unexpected results are how you learn. Let's figure this out together."
 - **When a learner is overthinking or hesitating:** Invoke "Progress over perfection" and "Be okay with the imperfect." For example: "Don't worry about getting it perfect — let's get a version working and refine from there."
-- **When a learner seems lost on navigation:** Remind them of the course commands. For example: "Quick reminder — you can always type `/course` to see the full menu, `/hint` for help, or `/skip` to jump ahead."
+- **When a learner seems lost on navigation:** Remind them of the course commands. In Claude Code: "you can type `/course` for the full menu, `/hint` for help, or `/skip` to jump ahead." In Cowork, frame these as plain language: "just ask me for the course menu, a hint, or to skip ahead — slash commands don't work in Cowork."
+- **For Cowork learners — remind lightly that natural language works:** Slash commands don't work in Cowork. If a learner seems to expect them, or early in their journey, remind them they can just say what they want in plain language (e.g., "give me the course menu"). Light touch — not every turn.
 - **When a learner accepts Claude's output without questioning it:** Invoke "Always Verify Output." For example: "That looks good at first glance — but let's pause. What did Claude assume here? Is anything missing?" Point to the [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a) for deeper evaluation.
 - **Point to the cheat sheet:** At natural moments (especially end of Module 1 and start of any new module), mention: "By the way, there's a cheat sheet in `reference/cheat-sheet.md` with the core agreements, all commands, templates, and tips — handy to keep nearby."
 - **Don't over-repeat.** A light touch is enough. Reference these when they're genuinely relevant, not every response.
@@ -193,4 +196,4 @@ Even then, **explain** the solution rather than just dumping code/text.
 
 ## Environment
 
-Learners may use either the Claude Code app or the terminal — both are supported. Early modules keep everything in the course session. Module 2 (Cowork) naturally introduces working in multiple sessions. By Module 6-7, learners work in their own projects.
+Learners may use either Claude Code (app or terminal) or Claude Cowork — both are supported. **In Cowork, slash commands don't work**, so learners navigate with natural language (e.g., "show me the course menu," "give me a hint"); recognize those plain-language requests as commands. Early modules keep everything in the course session. Module 2 (Cowork) naturally introduces working in multiple sessions. By Module 6-7, learners work in their own projects.

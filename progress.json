@@ -37,7 +37,8 @@
         "01": { "title": "What Are Skills & Plugins?", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "02": { "title": "Where Skills Come From", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "03": { "title": "Copy Your First Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
-        "04": { "title": "Build Your First Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+        "04": { "title": "Meet the Skill Creator Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "05": { "title": "Build Your First Skill", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
       }
     },
     "4": {
@@ -55,8 +56,9 @@
         "01": { "title": "Creating Custom Skills", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "02": { "title": "Scheduling & Automating Skills", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "03": { "title": "Skill Best Practices & Patterns", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
-        "04": { "title": "CLAUDE.md Deep Dive", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
-        "05": { "title": "Context Files for Cowork", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+        "04": { "title": "Layering Skills", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "05": { "title": "CLAUDE.md Deep Dive", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "06": { "title": "Context Files for Cowork", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
       }
     },
     "6": {

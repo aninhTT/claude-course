@@ -65,7 +65,8 @@ Please review these if you haven't already. They're important context for everyt
 - `check` — Validate your work
 - `exit` — Leave the course with a summary
 
-> 💡 **Using the CLI?** If you're running this course in Claude Code's terminal (CLI), these also work as slash commands — type `/course`, `/lesson`, etc. In the **desktop app**, just type the keyword as a regular message.
+> 💡 **In Claude Code,** these also work as slash commands — type `/course`, `/lesson`, etc.
+> **In Claude Cowork, slash commands don't work** — just ask in plain language for what you want, like "show me the course menu," "give me a hint," or "skip to lesson 2.03." Either way, Claude knows what you mean.
 
 **Building real things:** The exercises in this course are NOT pre-made problems with pre-made answers. You'll build things that are **actually useful to you and your role**. Claude will help you identify what to build and guide you through it.
 

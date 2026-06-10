@@ -24,7 +24,8 @@ Type these as a message to navigate the course:
 | `check` | Validate current exercise |
 | `exit` | Leave course with summary |
 
-> **CLI users:** These also work as slash commands (`/course`, `/lesson`, etc.) in the terminal.
+> **In Claude Code:** these also work as slash commands (`/course`, `/lesson`, etc.) — in the app or terminal.
+> **In Claude Cowork:** slash commands don't work — just ask in plain language ("show me the course menu," "give me a hint," "skip to lesson 2.03"). Claude understands either way.
 
 ### When to Use What
 
