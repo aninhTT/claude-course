@@ -27,6 +27,9 @@ The task executor. Give it clear instructions and it works autonomously. Does NO
 ### Frontmatter
 YAML metadata at the top of a markdown file, enclosed in `---`. Used in SKILL.md files and lesson files to define properties like name, description, and triggers.
 
+### /goal
+A Claude Code command (v2.1.139+) that sets a **completion condition** and keeps Claude working turn after turn — without you re-prompting — until that condition is met, then clears itself. After each turn a fast "checker" model decides whether the condition holds, judging only what Claude has surfaced in the conversation (it can't run tools or open files), so the finish line must be something the output can demonstrate. Best for large, repetitive work with a verifiable end state — audits, vendor evals, verified research; the per-turn reasons double as an audit trail.
+
 ### Granola
 A meeting note-taking tool. When connected as a connector, Claude can search and reference your meeting notes.
 

@@ -185,14 +185,4 @@ workspace/evaluation-system/
 
 ---
 
-## Congratulations — You've Completed the Course!
-
-You started with the basics: understanding what Claude Code is, connecting your tools, having your first conversation. You learned Cowork for background tasks, built skills, discovered the plugin ecosystem, and designed use cases tailored to your actual work. You went deeper with building real use cases, getting feedback, and polishing your work. And in this final module, you've prototyped ideas, deployed to GitHub, mastered the terminal, orchestrated multiple agents, set up project memory, and learned to codify your judgment into automated evaluation systems.
-
-The entire Claude Code & Cowork course is now complete.
-
-Please take a few minutes to fill out the completion survey — your feedback directly shapes future iterations of this course and helps the L&D team understand what worked, what didn't, and what to build next:
-
-**https://forms.gle/74iMkRWDVPw5ffQP9**
-
-Thank you for investing the time. Now go build something great.
+Next up — two short lessons on a different kind of power-user move: putting Claude to work toward a **goal** it keeps pursuing on its own until the job is done.
