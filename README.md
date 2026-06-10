@@ -1,6 +1,8 @@
 # Claude Code & Cowork Interactive Course
 
-An interactive course that runs **inside Claude Code itself** — no separate LMS, no slides, no videos to sit through. Open this folder in Claude Code and Claude becomes your personal tutor, walking you through everything from first conversation to advanced automation.
+An interactive course that runs **inside Claude itself** — works in both **Claude Code** and **Claude Cowork**, with no separate LMS, no slides, and no videos to sit through. Open this course in either Code or Cowork and Claude becomes your personal tutor, walking you through everything from first conversation to advanced automation.
+
+> **Works in both Code and Cowork.** The course is built so the experience is identical in either interface. In Claude Code, open the folder. In Claude Cowork, just upload the zip of this course and it runs exactly the same way it does in Code.
 
 ## What This Course Covers
 
@@ -16,15 +18,25 @@ This course is focused on **Claude Code and Cowork** — the two interfaces wher
 
 ### What This Course Does NOT Cover
 
-This course does not cover **Claude Chat** (the conversational interface). Chat is a similar experience to ChatGPT and other chat-based AI tools — if you've used one, you'll feel at home. We have other offerings that cover chat interfaces more in depth. If you're looking for a primer on how to get the most out of chat-style AI, check out the [30 Days of AI series](https://thumbtack.haystack.so/resources/0041286c-fdad-442a-b4db-dfd57e08ae53).
+This course does not cover **Claude Chat** (the conversational interface). Chat is a similar experience to ChatGPT and other chat-based AI tools — if you've used one, you'll feel at home. Cowork and Code are different experiences given they build locally on your computer, unlike chat interfaces.
 
 ## Quick Start
+
+Use whichever interface you prefer — the course works the same in both.
+
+**In Claude Code:**
 
 1. **Download this folder** — Clone the repo or download as a zip
 2. **Open the folder in Claude Code** — In the app: "Open Folder" → select this folder. In terminal: `cd` into it and run `claude`
 3. **Start learning** — Claude greets you automatically and guides you from there
 
-That's it. Claude becomes your tutor the moment you open this folder.
+**In Claude Cowork:**
+
+1. **Download this course as a zip** — Use the green "Code" button on GitHub → "Download ZIP" (or zip your local copy)
+2. **Upload the zip to Claude Cowork** — Cowork unpacks the course and reads its instructions automatically
+3. **Start learning** — Claude greets you and guides you exactly as it does in Code
+
+That's it. Claude becomes your tutor the moment you open the course — in Code or Cowork.
 
 ## Course Commands
 
@@ -54,7 +66,7 @@ That's it. Claude becomes your tutor the moment you open this folder.
 
 ## How It Works
 
-- Claude reads the `CLAUDE.md` file in this folder and transforms into your course tutor
+- Claude reads the `CLAUDE.md` file in this course and transforms into your course tutor — this works the same whether you open the folder in Claude Code or upload the zip to Claude Cowork
 - Your progress saves automatically in `progress.json` — close and come back anytime
 - Videos are included as optional demos throughout — not required to progress
 - Ask Claude questions anytime — it's your tutor for the whole course
