@@ -76,7 +76,9 @@
         "03": { "title": "Claude Code in the Terminal", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "04": { "title": "Multiple Sessions & Agent Workflows", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
         "05": { "title": "Project Memory & Complex Workflows", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
-        "06": { "title": "The Loop: Codifying Judgment", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
+        "06": { "title": "The Loop: Codifying Judgment", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "07": { "title": "Working Toward a Goal", "learn": false, "practice": false, "challenge": false, "hints_used": 0 },
+        "08": { "title": "Writing a Good Goal", "learn": false, "practice": false, "challenge": false, "hints_used": 0 }
       }
     }
   },

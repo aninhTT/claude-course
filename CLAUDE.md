@@ -49,7 +49,7 @@ When someone starts a conversation in this folder:
 | 4. Use Case Thinking | `04-use-cases` | 4 |
 | 5. Intermediate Skills | `05-intermediate-skills` | 6 |
 | 6. Building Your Use Cases | `06-building` | 4 |
-| 7. Advanced Claude Code | `07-advanced` | 6 |
+| 7. Advanced Claude Code | `07-advanced` | 8 |
 
 ## Available Commands
 

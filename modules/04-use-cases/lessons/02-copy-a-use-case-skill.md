@@ -45,7 +45,7 @@ Go back to the Skill Bank you downloaded in Module 3:
 
 **Google Drive:** https://drive.google.com/drive/folders/1IjvOYsbWyrVrkki8OWnnQxh1NYEmNt-Y?usp=sharing
 
-**GitHub (if you have it):** https://github.com/aninhTT/skill-bank
+**GitHub (if you have it):** https://github.com/thumbtack/shared-skills/tree/main/users/amies-skill-bank
 
 Find the use case skill folder and drag it into your Claude Code session (or copy it in). Make sure you know what folder it lands in — check that it's in `workspace/skills/` or wherever you're keeping your skills.
 

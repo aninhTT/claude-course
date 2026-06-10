@@ -48,6 +48,8 @@ Type these as a message to navigate the course:
 
 **Sessions** — Each conversation is a session. You can have multiple open at once.
 
+**/goal** — A Claude Code command that sets a completion condition and keeps Claude working until it's met. Great for large, repetitive work with a verifiable finish line — audits, vendor evals, verified research. The goal must be specific and demonstrable in the output. (Module 7)
+
 ### CLAUDE.md Template
 
 ```markdown

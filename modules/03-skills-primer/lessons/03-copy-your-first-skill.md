@@ -47,11 +47,13 @@ Then unzip it on your computer. You'll see individual skill folders inside.
 
 **Option B: Clone from GitHub (if you have GitHub)**
 
-If you already have a GitHub account (if you're not sure, you probably don't — and that's totally fine), you can clone the repo:
+If you already have a GitHub account (if you're not sure, you probably don't — and that's totally fine), you can clone the shared skills repo:
 
 ```
-git clone https://github.com/aninhTT/skill-bank
+git clone https://github.com/thumbtack/shared-skills
 ```
+
+The sample skills live in `users/amies-skill-bank/` inside the repo — you can also [browse them on GitHub](https://github.com/thumbtack/shared-skills/tree/main/users/amies-skill-bank).
 
 > Most Thumbtack employees don't have GitHub set up yet. If that's you, just use Option A — the Google Drive download. You'll learn about GitHub in Module 7 if you're interested.
 
@@ -65,7 +67,7 @@ Here's a quick video showing what this skill does: https://www.loom.com/share/26
 
 If you downloaded the zip folder, find the brand design skill folder inside. Drag the entire folder into your Claude Code session — Claude will copy it into your workspace. Make sure you know where it lands! Check that it's in `workspace/skills/` or wherever you want to keep it.
 
-If you cloned the repo, navigate to the brand design skill folder.
+If you cloned the repo, navigate to the brand design skill folder inside `users/amies-skill-bank/`.
 
 Either way, make sure the SKILL.md file is somewhere Claude can see it in this session.
 
