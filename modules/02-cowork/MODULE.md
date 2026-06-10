@@ -9,6 +9,8 @@ lessons: 4
 
 Cowork is your autonomous task executor. You give it instructions, point it at your tools (or upload data), and it works through the task independently. This module takes you from first task to working independently with Cowork.
 
+> 💡 **A note for this module:** if you're working in Cowork, slash commands like `/course` or `/skip` won't work here. Just ask in plain language — "show me the course menu," "skip ahead," "give me a hint" — and the tutor will know what you mean. (In Claude Code, the slash commands work too.)
+
 ## What You'll Learn
 
 - What Cowork is and how it relates to Claude Code

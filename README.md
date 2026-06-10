@@ -50,19 +50,21 @@ That's it. Claude becomes your tutor the moment you open the course — in Code 
 | `/check` | Validate your current exercise |
 | `/exit` | Graceful off-ramp with summary and feedback |
 
+> **Heads up — slash commands only work in Claude Code.** In **Claude Cowork**, slash commands don't work — just ask in plain language for what you want, like "show me the course menu," "give me a hint," or "skip to lesson 2.03." Either way, Claude knows what you mean.
+
 ## Modules
 
 | Module | Focus | Lessons |
 |--------|-------|---------|
-| 1. Fundamentals | Claude Code vs Chat vs Cowork, connectors, folders | 5 |
+| 1. Fundamentals | Claude Code vs Chat vs Cowork, connectors, folders | 6 |
 | 2. Cowork | Task execution, indexing, data analysis | 4 |
-| 3. Skills & Plugins Primer | What they are, finding/copying, building your first | 4 |
+| 3. Skills & Plugins Primer | What they are, finding/copying, building your first | 5 |
 | 4. Use Case Thinking | Feed context, copy & study skills, plan mode, build use cases | 4 |
-| 5. Intermediate Skills | Custom skills, scheduling, best practices, CLAUDE.md, context files | 5 |
+| 5. Intermediate Skills | Custom skills, scheduling, best practices, CLAUDE.md, context files | 6 |
 | 6. Building Your Use Cases | Hands-on building with Claude's review & feedback | 4 |
 | 7. Advanced | Prototyping, GitHub, terminal, multi-agent, evaluation loops, goals | 8 |
 
-**32 lessons total.** Each takes 5-10 minutes. Lessons have 3 sections: **Learn** (concepts) → **Practice** (guided build) → **Challenge** (optional stretch goal). You build real things useful to your work — no contrived exercises.
+**37 lessons total.** Each takes 5-10 minutes. Lessons have 3 sections: **Learn** (concepts) → **Practice** (guided build) → **Challenge** (optional stretch goal). You build real things useful to your work — no contrived exercises.
 
 ## How It Works
 
