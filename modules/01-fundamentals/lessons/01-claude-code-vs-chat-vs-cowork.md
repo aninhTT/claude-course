@@ -27,7 +27,7 @@ But before we get into the tools, here's the single most important habit you'll 
 - Get a quick answer to a question
 - Have a back-and-forth conversation to refine ideas
 
-Chat's superpower is **Projects and Memory** — you can save context that carries across conversations. We don't cover Chat super extensively in this course because if you've used ChatGPT, it'll feel familiar — it's a similar back-and-forth experience. The main difference is that Claude can't generate images. If you want a primer on how best to engage with Chat-style AI interfaces (which have a ton of similarities across tools), check out the **30 Days of AI** series: https://thumbtack.haystack.so/resources/0041286c-fdad-442a-b4db-dfd57e08ae53
+Chat's superpower is **Projects and Memory** — you can save context that carries across conversations. We don't cover Chat super extensively in this course because if you've used ChatGPT, it'll feel familiar — it's a similar back-and-forth experience. One difference: Claude doesn't generate photos or illustrations the way image tools do — but it does make diagrams, charts, designs, and short animations (you'll make these in Module 4). If you want a primer on how best to engage with Chat-style AI interfaces (which have a ton of similarities across tools), check out the **30 Days of AI** series: https://thumbtack.haystack.so/resources/0041286c-fdad-442a-b4db-dfd57e08ae53
 
 ### Cowork — Your Task Executor
 
@@ -36,7 +36,7 @@ Chat's superpower is **Projects and Memory** — you can save context that carri
 - Index and synthesize information from Slack, email, Granola
 - Follow a plan autonomously without needing your input at every step
 
-Cowork is built on the same "brain" as Claude Code but optimized for **task execution**. You give it clear instructions, point it at a folder for context, and it works through the task. It does NOT have plan mode — it just executes.
+Cowork is built on the same "brain" as Claude Code but optimized for **task execution**. You give it clear instructions, point it at a folder for context, and it works through the task. It doesn't have Claude Code's **plan mode**, but it usually makes a plan before it starts, and you choose how often it stops to ask for your approval (more on this in Module 2).
 
 ### Claude Code — Your Builder
 
@@ -55,7 +55,7 @@ Claude Code has **plan mode** — always plan before you build! It can read, wri
 |---|------|--------|------|
 | **Best for** | Thinking | Doing tasks | Building |
 | **Interaction** | Back-and-forth | Set it and go | Collaborative building |
-| **Plan mode** | No | No | Yes — use it! |
+| **Plan mode** | No | No — but it makes a plan before acting | Yes — use it! |
 | **File access** | No | Folder context | Full read/write |
 | **Sessions** | Conversations | Tasks | Sessions |
 
@@ -65,15 +65,16 @@ Claude Code has **plan mode** — always plan before you build! It can read, wri
 - **Need it done?** → Cowork
 - **Need to build it?** → Claude Code
 
-### The Three Modes in Claude Code
+### The Four Modes in Claude Code
 
-Claude Code has three modes you'll encounter — each serves a different purpose:
+Claude Code has four modes you'll encounter — each serves a different purpose:
 
-- **Ask permissions (default)** — Claude proposes an action (like editing a file or running a command) and waits for you to approve. This gives you full control over what happens. You'll see popups asking you to "Allow" — this is normal.
+- **Manual (ask permissions)** — Claude proposes an action (like editing a file or running a command) and waits for you to approve. This gives you full control over what happens. You'll see popups asking you to "Allow" — this is normal.
 - **Auto accept edits** — Claude makes edits without asking first. Useful when you trust the workflow and don't want to click "Allow" for every change. Great for experienced users.
 - **Plan mode** — Claude thinks through an approach *before* building anything. It creates a plan, you review it, then Claude executes. Always use this when building something new or complex.
+- **Auto** — Claude handles routine actions without stopping to ask, while a built-in safety check reviews each action in the background and blocks anything risky. On many plans, this is now the default for new sessions.
 
-You'll learn more about when to use each as the course progresses. For now, just know they exist.
+You can switch modes with the mode selector next to the message box (or press Shift+Tab in the terminal). You'll learn more about when to use each as the course progresses. For now, just know they exist — and that if something goes wrong, you can undo it (Lesson 1.04).
 
 ### One Important Note: There's Overlap
 

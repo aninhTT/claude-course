@@ -91,7 +91,7 @@ Common issues and how to fix them.
 **Fix:**
 1. Long responses or complex tasks take more time — this is normal
 2. If Claude seems stuck, you can interrupt and try a simpler request
-3. Large context windows (lots of files open) can slow things down — this is where .claudeignore helps (Module 7)
+3. Large context windows (lots of files open) can slow things down — this is where `/context` and `/compact` help (Lesson 8.07)
 
 ---
 

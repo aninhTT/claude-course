@@ -38,7 +38,7 @@ A good Cowork task has a **specific scope** and a **clear deliverable**. Think o
 
 **Weak task:** "Tell me what I missed." (Too vague — missed where? Over what period? What counts as important?)
 
-The more specific you are upfront, the better Cowork's output will be. Remember, Cowork doesn't have plan mode and it doesn't stop to ask clarifying questions — it takes your instructions and runs with them.
+The more specific you are upfront, the better Cowork's output will be. Remember, Cowork doesn't have plan mode. It will lay out an approach, but it won't stop to ask what you meant — it takes your instructions and runs with them.
 
 ### What Cowork Produces
 
@@ -58,7 +58,7 @@ Let's run your first real Cowork task. Pick **one of the two options** below bas
 
 This task has Cowork index your recent activity and compile a personalized summary.
 
-**Step 1:** Open a new Cowork session (upper tabs → Cowork → New Task).
+**Step 1:** Open a new Cowork task (the same way you did in Lesson 2.01).
 
 **Step 2:** Give Cowork this task (customize the bracketed parts):
 
@@ -88,7 +88,7 @@ This task has Cowork index your recent activity and compile a personalized summa
 
 If you have a spreadsheet or data file you've been meaning to look at, this is a great first task.
 
-**Step 1:** Open a new Cowork session (upper tabs → Cowork → New Task).
+**Step 1:** Open a new Cowork task (the same way you did in Lesson 2.01).
 
 **Step 2:** Upload an Excel file, CSV, or any data file by dragging it into the Cowork session or using the upload button.
 
@@ -114,7 +114,7 @@ If you have a spreadsheet or data file you've been meaning to look at, this is a
 
 This feedback will help you refine your instructions for future tasks.
 
-> 💡 You can come back to your course session anytime — just switch back in the upper tabs. Your course progress is saved.
+> 💡 You can come back to your course session anytime — just switch back to it from the sidebar. Your course progress is saved.
 
 **Success criteria:** You ran a Cowork task that either (a) indexed at least 2 connected sources and produced a summary, or (b) analyzed uploaded data and produced insights.
 

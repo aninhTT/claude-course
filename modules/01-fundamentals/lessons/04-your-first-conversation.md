@@ -55,6 +55,10 @@ In the Claude Code app, each conversation is a **session**. Key things to know:
 
 We'll explore multiple sessions more in Module 2. For now, just know that this course session will remember your progress.
 
+### Undo With Rewind
+
+Made a change you don't like? In Claude Code, press **Esc twice** (or type `/rewind`) to go back to an earlier point in the session. You can restore the files, the conversation, or both. It's your safety net while you're learning — so experiment freely.
+
 ## Practice
 
 Let's have your first real, productive conversation with Claude Code. Do this right here in this session.

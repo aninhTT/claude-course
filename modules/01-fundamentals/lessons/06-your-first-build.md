@@ -72,6 +72,8 @@ Let's build something that only Code can do — a simple, functional app.
 
 **Step 4:** Ask Claude to improve it. "Add a dark mode toggle," "Make the font bigger," "Add an export button" — iterate until you're happy.
 
+> 💡 **Want to share it?** Ask Claude to publish your app as an **artifact**. It gets its own private link that you can choose to share with a teammate. You'll learn all about artifacts in Module 4.
+
 > 💡 **It doesn't need to be perfect or 100% functional.** This exercise is just to give you a sense of what's possible in Code. We'll cover more best practices for building later on. Progress over perfection!
 
 **Success criteria:** Built a functional tool or app in workspace/ that does something useful — not just a static document. Claude wrote the code; you directed what to build. Iterated at least once.

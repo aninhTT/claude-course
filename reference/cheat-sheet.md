@@ -10,6 +10,8 @@
 4. **Be Okay with the Imperfect** — AI isn't always perfect on the first try. The skill is in iterating.
 5. **Always Verify Output** — Claude is confident even when wrong. Check assumptions, catch gaps, and test edge cases before trusting any output.
 
+These sit alongside Thumbtack's [AI Expectations](https://thumbtack.haystack.so/resources/c8602dcc-0898-4f92-ae93-243ee7d696ba), including **Own the outcomes**: share work only once it's ready for its audience.
+
 ### Course Commands
 
 Type these as a message to navigate the course:
@@ -34,6 +36,7 @@ Type these as a message to navigate the course:
 | Think through something | **Chat** | Brainstorm ideas, outline a doc, rewrite text |
 | Get a task done | **Cowork** | Index emails, compile a summary, draft messages |
 | Build something | **Claude Code** | Create skills, tools, templates, prototypes |
+| Make something to share | **Artifact** | Doc, deck, one-pager, dashboard, animation |
 
 ### Key Concepts
 
@@ -41,15 +44,19 @@ Type these as a message to navigate the course:
 
 **SKILL.md** — A reusable workflow file. Has YAML frontmatter + numbered steps.
 
-**Plan Mode** — Think before you build. Claude Code only (not Cowork). Always plan first!
+**Plan Mode** — Think before you build. Claude Code only — Cowork lays out a plan but has no plan mode. Always plan first!
 
-**Plugin** — Umbrella term for anything that extends Claude: skills, commands, and connectors.
+**Plugin** — A bundle of extensions: skills, connectors, subagents, and more. Manage them under **Customize**.
 
 **Connectors/MCP** — Integrations that give Claude access to your tools (Slack, Gmail, Calendar, etc.)
 
 **Sessions** — Each conversation is a session. You can have multiple open at once.
 
-**/goal** — A Claude Code command that sets a completion condition and keeps Claude working until it's met. Great for large, repetitive work with a verifiable finish line — audits, vendor evals, verified research. The goal must be specific and demonstrable in the output. (Module 7)
+**Artifact** — A shareable doc, deck, design, dashboard, or animation with its own link. Starts private. For Thumbtack branding, say "Use the Thumbprint design." (Module 4)
+
+**Approval modes** — How often Cowork asks before acting: Manual, Auto, or Skip. Claude Code's modes are Manual, Accept edits, Plan, and Auto.
+
+**/goal** — A Claude Code command that sets a completion condition and keeps Claude working until it's met. Great for large, repetitive work with a verifiable finish line — audits, vendor evals, verified research. The goal must be specific and demonstrable in the output. (Module 8)
 
 ### CLAUDE.md Template
 
@@ -114,6 +121,10 @@ Deliver to: [Where to send it — Slack DM, file, etc.]
 - New session: Check app menu
 - Switch sessions: Session sidebar
 - Plan mode: Toggle in interface or ask "let's plan this first"
+- Switch modes: mode selector next to the message box (Shift+Tab in the terminal)
+- Undo: press Esc twice, or type `/rewind`
+- Browser pane: Cmd+Shift+B (Mac) / Ctrl+Shift+B (Windows)
+- Split view: Option-click (Mac) / Alt-click (Windows) a session in the sidebar
 
 ### Discernment Checklist
 

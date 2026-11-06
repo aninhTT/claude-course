@@ -9,12 +9,13 @@ An interactive course that runs **inside Claude itself** — works in both **Cla
 This course is focused on **Claude Code and Cowork** — the two interfaces where Claude works directly with your files, tools, and workflows. It starts from the absolute basics and progresses through intermediate and beginning-advanced skills:
 
 - **Fundamentals:** What Claude Code is, how to connect your tools, why folder structure matters, your first builds
-- **Cowork:** Background tasks, delegating work, task decomposition
+- **Cowork:** Background tasks, delegating work, task decomposition, Claude in Chrome
 - **Skills & Plugins:** How to find, copy, and build skills that extend what Claude can do
+- **Artifacts:** Turning your work into docs, slides, designs, dashboards, and animations you can share
 - **Use Case Thinking:** Identifying the highest-value ways to use AI in your specific role
 - **Intermediate Skills:** Custom skill creation, scheduling, best practices, context management
 - **Building:** Hands-on sessions building real use cases with Claude as your reviewer
-- **Advanced:** Prototyping, GitHub, terminal workflows, multi-agent orchestration, codifying judgment
+- **Advanced:** Prototyping, GitHub, terminal workflows, multi-agent orchestration, codifying judgment, context management, goals
 
 ### What This Course Does NOT Cover
 
@@ -57,14 +58,15 @@ That's it. Claude becomes your tutor the moment you open the course — in Code 
 | Module | Focus | Lessons |
 |--------|-------|---------|
 | 1. Fundamentals | Claude Code vs Chat vs Cowork, connectors, folders | 6 |
-| 2. Cowork | Task execution, indexing, data analysis | 4 |
+| 2. Cowork | Task execution, data analysis, task decomposition, Claude in Chrome & Slack | 5 |
 | 3. Skills & Plugins Primer | What they are, finding/copying, building your first | 5 |
-| 4. Use Case Thinking | Feed context, copy & study skills, plan mode, build use cases | 4 |
-| 5. Intermediate Skills | Custom skills, scheduling, best practices, CLAUDE.md, context files | 6 |
-| 6. Building Your Use Cases | Hands-on building with Claude's review & feedback | 4 |
-| 7. Advanced | Prototyping, GitHub, terminal, multi-agent, evaluation loops, goals | 8 |
+| 4. Artifacts | Docs, slides, designs & design systems, dashboards, motion, sharing | 5 |
+| 5. Use Case Thinking | Feed context, copy & study skills, plan mode, build use cases | 4 |
+| 6. Intermediate Skills | Custom skills, scheduling, best practices, CLAUDE.md, context files | 6 |
+| 7. Building Your Use Cases | Hands-on building with Claude's review & feedback | 4 |
+| 8. Advanced | Prototyping, GitHub, terminal, multi-agent, evaluation loops, context, goals | 9 |
 
-**37 lessons total.** Each takes 5-10 minutes. Lessons have 3 sections: **Learn** (concepts) → **Practice** (guided build) → **Challenge** (optional stretch goal). You build real things useful to your work — no contrived exercises.
+**44 lessons total.** Each takes 5-10 minutes. Lessons have 3 sections: **Learn** (concepts) → **Practice** (guided build) → **Challenge** (optional stretch goal). You build real things useful to your work — no contrived exercises.
 
 ## How It Works
 
@@ -80,7 +82,7 @@ That's it. Claude becomes your tutor the moment you open the course — in Code 
 claude-course/
 ├── CLAUDE.md          ← The "brain" that makes Claude your tutor
 ├── progress.json      ← Your saved progress
-├── modules/           ← All course content (7 modules, 32 lessons)
+├── modules/           ← All course content (8 modules, 44 lessons)
 ├── workspace/         ← Build your projects here (early modules)
 ├── playground/        ← Free experimentation sandbox
 └── reference/         ← Cheat sheet, glossary, troubleshooting
