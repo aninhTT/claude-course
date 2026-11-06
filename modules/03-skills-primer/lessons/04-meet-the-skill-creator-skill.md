@@ -29,19 +29,13 @@ It's also a great study tool — the skills it generates show you exactly what a
 
 ### Installing It
 
-The skill-creator is a pre-made skill available in the skill bank. To install it:
+The skill-creator is a pre-made skill from Anthropic. You install it the same way you found skills in Lesson 3.02:
 
-**In Claude Code:**
-1. Open Claude Code settings
-2. Go to Skills (or Plugins)
-3. Find "skill-creator" in the available skills list
-4. Add it to your session
+1. In the Claude app, open **Customize**
+2. Search for "skill-creator"
+3. Hit **Install**
 
-**In Cowork:**
-1. Open Cowork
-2. Go to your skills panel
-3. Search for "skill-creator"
-4. Add it to your skill library
+It may already be installed. If you see it in your list of skills, you're set. Once it's installed, it works in both Cowork and Claude Code.
 
 Once installed, you can trigger it two ways:
 - **Slash command:** `/skill-creator`

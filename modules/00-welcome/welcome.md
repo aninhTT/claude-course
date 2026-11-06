@@ -18,6 +18,7 @@ By the end of this course, you will:
 - Know how to use **plan mode** to think before you build
 - Have designed and built **use cases specific to your role**
 - Be able to create **custom skills** that automate your workflows
+- Be able to turn your work into **artifacts** — docs, decks, designs, and dashboards you can share
 - Feel confident working independently with these tools
 
 ## Our Core Agreements
@@ -39,13 +40,12 @@ AI outputs aren't always perfect on the first try. That's normal. The skill is i
 ### 5. Always Verify Output
 Claude is confident even when it's wrong. Before you trust any output, check the assumptions, look for gaps, and think about what could break. The [AIRCRAFT Judgment Rubric](https://coda.io/d/_d65keLkjPAQ/AI-RCRAFT-Judgment-Rubric_suFNbe1a) is a great framework for this — bookmark it.
 
-## Our Operating Guardrails
+## Our AI Expectations
 
-These still apply when working with AI tools:
-- **AI Operating Guardrails:** https://docs.google.com/document/d/1eKbp89j9o7qJX4WKb1Ph-RFIMjir6dvQ1Isacibeocc/edit?tab=t.0
-- **AI Expectations:** https://docs.google.com/document/d/1zxApnzVuSZPmT2bDL21Ay4xGhZNo_uLOenh916eVatk/preview?tab=t.0#heading=h.kqfz6q915209
+Thumbtack's AI Expectations apply whenever you work with AI tools:
+- **AI Expectations:** https://thumbtack.haystack.so/resources/c8602dcc-0898-4f92-ae93-243ee7d696ba
 
-Please review these if you haven't already. They're important context for everything we'll do.
+Please review them if you haven't already. They're important context for everything we'll do.
 
 ## How This Course Works
 

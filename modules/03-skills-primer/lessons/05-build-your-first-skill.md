@@ -1,12 +1,12 @@
 ---
 module: 3
-lesson: 4
+lesson: 5
 title: "Build Your First Skill"
 difficulty: intermediate
-prerequisites: "3.03"
+prerequisites: "3.04"
 ---
 
-# Lesson 3.04: Build Your First Skill
+# Lesson 3.05: Build Your First Skill
 
 ## Learn
 
@@ -80,7 +80,7 @@ Ask Claude to create a morning-briefing skill. Start with this prompt and custom
 > Make it a proper SKILL.md with frontmatter, clear steps, and error handling.
 > My role is [your role]."
 
-Save it in `workspace/` (or in `.claude/commands/` if you want it as a slash command right away).
+Save it in `workspace/` (or in its own folder inside `.claude/skills/` if you want it as a slash command right away).
 
 **Step 2: Review the draft.**
 

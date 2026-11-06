@@ -3,7 +3,7 @@ module: 2
 lesson: 1
 title: "What Is Cowork?"
 difficulty: beginner
-prerequisites: "1.05"
+prerequisites: "1.06"
 videos:
   - url: "https://www.loom.com/share/9700e223f40e4a408f07e0f1e1065cb1"
     title: "Claude Cowork"
@@ -59,7 +59,25 @@ The biggest difference between Cowork and Chat: Cowork **executes autonomously**
 
 This is why Cowork is the right choice for complex, multi-step work. A task like "compile all the decisions from this week's meetings and draft a summary" would take a dozen chat messages back and forth. In Cowork, it's one task instruction and Cowork handles it end to end.
 
-Also important: **Cowork does NOT have plan mode.** Plan mode is a Claude Code feature (and you should always use it when building). Cowork just executes. This means your instructions need to be clear upfront — state your goal clearly, whether that's a sentence, a paragraph, or even just dictating your thoughts out loud. A great pattern: state your goal, then ask Cowork to state it back to you and help you clarify before it starts working. This "state it back" loop catches misunderstandings before Cowork runs in the wrong direction.
+### Plans and Approval Modes
+
+**Cowork doesn't have plan mode** — that's a Claude Code feature (and you should always use it when building). But Cowork doesn't just charge ahead either. It usually **makes a plan** first: it reads your request, lays out its approach, and then works through it.
+
+You also choose how often Cowork stops to ask for your approval. There are three **approval modes**:
+
+| Mode | What happens | Use it when |
+|------|--------------|-------------|
+| **Manual** | Cowork asks before it takes actions | You're new to Cowork, or the task sends, changes, or deletes things |
+| **Auto** | Reading is approved automatically; other actions get a safety check, and risky ones are blocked | Everyday tasks you've run before |
+| **Skip** | Cowork acts without asking | Rarely — only well-tested tasks where nothing can go badly wrong |
+
+Whatever the mode, Cowork asks before permanently deleting files. Your admin decides which modes are available to you.
+
+Because Cowork works on its own once it starts, your instructions still need to be clear upfront — state your goal clearly, whether that's a sentence, a paragraph, or even just dictating your thoughts out loud. A great pattern: state your goal, then ask Cowork to state it back to you and help you clarify before it starts working. This "state it back" loop catches misunderstandings before Cowork runs in the wrong direction. Then review the plan Cowork lays out before you let it run.
+
+### Cowork Keeps Going When You Step Away
+
+Cowork can run tasks in the cloud, so they keep going even when your laptop is closed. Tasks that use local files, your browser, or your computer need the desktop app open. You can also start, steer, and check on Cowork tasks from the **Claude mobile app**, and get a notification when they finish. (Cloud and mobile Cowork are turned on by your admin — if you don't see them, ask.)
 
 ### When to Use Cowork
 
@@ -77,7 +95,7 @@ Cowork is ideal when you need to:
 
 Let's get hands-on with Cowork. This exercise is about getting comfortable with the interface.
 
-**Step 1:** Open Cowork in the Claude app. Look at the **upper tabs** — you'll see options for Chat, Code, and **Cowork**. Click on Cowork, then hit **New Task** to start a fresh Cowork session.
+**Step 1:** Open Cowork in the Claude app. Depending on your version of the app, you'll see either a **Cowork** tab at the top (next to Chat and Code) or a **Cowork** option in the message box of any conversation. Select Cowork and start a new task.
 
 > 💡 You can come back to this course conversation anytime — it's a separate session. Cowork tasks run independently. Here's a quick video showing how to navigate between your course session and Cowork: https://www.loom.com/share/692e1af8297d4b479fc1ec8972494f92
 
@@ -90,7 +108,7 @@ Let's get hands-on with Cowork. This exercise is about getting comfortable with 
 
 > "Summarize what Cowork can do for me. Include what tools and connectors it can access, and give me 5 example tasks I could use it for in my role."
 
-**Step 4:** Watch how Cowork works through the task. Notice that it doesn't ask you questions — it just executes based on your instructions.
+**Step 4:** Watch how Cowork works through the task. Notice how it lays out its approach, then works through it on its own — and, depending on your approval mode, when it stops to check with you.
 
 **Success criteria:** You've opened Cowork, explored the interface, and completed a simple interaction where Cowork produced output for you.
 

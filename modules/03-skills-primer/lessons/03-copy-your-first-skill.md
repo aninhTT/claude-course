@@ -6,9 +6,9 @@ difficulty: beginner
 prerequisites: "3.02"
 videos:
   - url: "https://www.loom.com/share/26c3141dd7884bd4a8de1f7fcbcef6b6"
-    title: "Brand Guidelines Skill Demo"
+    title: "What Copying a Skill Looks Like"
     duration: "~3 min"
-    context: "Watch this to see what the brand design skill does in action"
+    context: "Here's what copying a skill looks like. It uses a different skill from the one in this lesson, but it gives you a sense for working with skills."
 ---
 
 # Lesson 3.03: Copy Your First Skill
@@ -27,94 +27,110 @@ The fastest way to get a working skill is to copy one that already exists and cu
 4. **Run it** — See it in action
 5. **Customize it** — Modify the steps, connectors, output, or trigger to fit your needs
 
+Want to see what copying a skill looks like first? Here's a quick demo (~3 min): https://www.loom.com/share/26c3141dd7884bd4a8de1f7fcbcef6b6. It uses a different skill from the one you'll copy below, but the steps are the same.
+
 ### Where to Put Copied Skills
 
-Skills go in one of two places:
-- **`.claude/commands/`** in your project folder — Available in that project
-- **`~/.claude/commands/`** in your home directory — Available everywhere
+Each skill lives in its own folder with a SKILL.md file inside, in one of two places:
+- **`.claude/skills/`** in your project folder — Available in that project
+- **`~/.claude/skills/`** in your home directory — Available everywhere
+
+(You may also see skills saved as single files in `.claude/commands/` — that's the older format, and it still works. This course's own commands live there.)
 
 For this exercise, we'll put skills in the course's `workspace/` folder so you can see them clearly.
 
-### Getting Skills from Others
+### The Skill You'll Copy: Clean Draft
 
-We've shared a small **Skill Bank** with sample skills you can copy. There are two ways to get them:
+**Clean Draft** reviews the quality of AI output. Paste in a draft — from Claude, ChatGPT, Codex, or written by hand — and it turns it into something a busy reader can read once and act on.
 
-**Option A: Download from Google Drive (recommended for most people)**
+It makes two passes:
+- **Structure:** puts the recommendation first, narrows the options to two or three (each with its cost), names an owner for every ask, and cuts what the reader doesn't need.
+- **Sentences:** one idea per sentence, plain words, a named actor, and no stock AI phrases like "Here's the thing," "move the needle," or "Hope this helps."
 
-Download the zip folder from here: https://drive.google.com/drive/folders/1IjvOYsbWyrVrkki8OWnnQxh1NYEmNt-Y?usp=sharing
+It edits form, not facts. If the draft is missing an owner, a date, or a recommendation, it flags the gap for you instead of inventing one. A built-in readability checker reviews the draft before and after.
 
-Then unzip it on your computer. You'll see individual skill folders inside.
+In short: **Clean Draft helps you avoid AI slop.** Use it on docs, pull requests, emails, Slack posts — anything you're about to send to another person.
 
-**Option B: Clone from GitHub (if you have GitHub)**
+### Getting the Skill
 
-If you already have a GitHub account (if you're not sure, you probably don't — and that's totally fine), you can clone the shared skills repo:
+Clean Draft is listed in Thumbtack's AI Marketplace: https://ai-marketplace-sbqrdzy4sa-uw.a.run.app/?tool=curated%3Askill%3Aclean-draft
+
+The Marketplace page links to the skill's home on Thumbtack's GitHub: https://github.com/thumbtack/shared-skills/tree/main/users/tsalman/clean-draft
+
+You'll copy it from GitHub, so you'll need access to Thumbtack's GitHub. If you don't have it yet, request GitHub access and complete the certification training. You'll use GitHub again later in the course, so it's worth setting up.
+
+Once you have access, the easiest path is to ask Claude:
+
+> "Copy the clean-draft skill from https://github.com/thumbtack/shared-skills/tree/main/users/tsalman/clean-draft into `workspace/skills/clean-draft/`. Include the scripts folder."
+
+Or clone the whole shared skills repo yourself and find the skill in `users/tsalman/clean-draft/`:
 
 ```
 git clone https://github.com/thumbtack/shared-skills
 ```
 
-The sample skills live in `users/amies-skill-bank/` inside the repo — you can also [browse them on GitHub](https://github.com/thumbtack/shared-skills/tree/main/users/amies-skill-bank).
-
-> Most Thumbtack employees don't have GitHub set up yet. If that's you, just use Option A — the Google Drive download. You'll learn about GitHub in Module 7 if you're interested.
-
 ## Practice
 
-You're going to copy a real skill — the **Brand Design skill** from the Skill Bank — study how it's built, and then run it.
-
-Here's a quick video showing what this skill does: https://www.loom.com/share/26c3141dd7884bd4a8de1f7fcbcef6b6
+You're going to copy **Clean Draft**, study how it's built, and then run it on something real.
 
 **Step 1: Get the skill.**
 
-If you downloaded the zip folder, find the brand design skill folder inside. Drag the entire folder into your Claude Code session — Claude will copy it into your workspace. Make sure you know where it lands! Check that it's in `workspace/skills/` or wherever you want to keep it.
+Ask Claude to copy it in from GitHub (see **Getting the Skill** above). If you cloned the repo yourself, ask Claude to copy `users/tsalman/clean-draft/` into your workspace.
 
-If you cloned the repo, navigate to the brand design skill folder inside `users/amies-skill-bank/`.
-
-Either way, make sure the SKILL.md file is somewhere Claude can see it in this session.
+Then check where it lands. It should be in `workspace/skills/clean-draft/`, with `SKILL.md`, `README.md`, and a `scripts/` folder inside. Make sure the `scripts/` folder came along — the skill needs it for its readability checker.
 
 **Step 2: Read and analyze the skill.**
 
 Open the SKILL.md and study it carefully. Discuss with Claude:
 
-- What does the frontmatter tell you about this skill?
-- How many steps are there, and what does each one do?
+- What does the frontmatter description tell you? When should this skill load — and when should it *not*?
+- How many steps are in the workflow, and what does each one do?
 - What inputs does the skill expect?
-- What does the skill produce as output?
-- What happens if something goes wrong? How does it handle errors?
+- What does it give you back?
+- What happens when the draft is missing something, like an owner or a date?
+- What's in the `scripts/` folder, and why would a skill include a script?
 - Could you modify this skill for your own work? What would you change?
 
 **Step 3: Identify the patterns.**
 
 Look at how the skill is structured. Notice:
-- Each step is a single, clear action
-- Error handling covers realistic failure scenarios
+- Each step in the workflow is a single, clear action
 - Inputs and outputs are explicitly defined
-- The description is specific enough that Claude (or a person) could follow it
+- It's clear about its limits — it edits form, not facts, and says what it won't do
+- The description is specific enough that Claude knows exactly when to use it
 
 These patterns are what make a skill reliable and reusable.
 
 **Step 4: Run the skill!**
 
-Now actually use it — have it do something. Try one of these:
+Now actually use it on something you need anyway. Try one of these:
 
-- **Build a deck** for an upcoming meeting using Thumbtack's brand guidelines
-- **Create a one-page PDF** about Thumbtack — what it is, what it does
-- **Write and lay out a blog post** following the brand style
+- **A doc** you're drafting — a brief, a proposal, a recap
+- **A pull request description**, if you write code
+- **An email or Slack post** you're about to send
+- **Something Claude wrote for you** earlier in this course — the perfect test for AI slop
 
-Give it a real task and see what it produces. Notice how the skill's instructions guide Claude's output.
+For example:
 
-**Success criteria:** Copied the brand design skill into your workspace, read through it carefully, can explain what each section does, and ran the skill to produce real output.
+> "Use the clean-draft skill on this email to my team. The audience is the other team leads: [paste your draft]"
+
+Compare the before and after. Read the list of **gaps** it flagged. Those are things only you can fill in.
+
+> 💡 **About the checker:** Clean Draft runs a small Python script to check readability. If Claude says it can't run the script, it can still do both editing passes — or ask Claude to help you get the checker working.
+
+**Success criteria:** Copied the Clean Draft skill (including its `scripts/` folder) into your workspace, read through it carefully, can explain what each section does, ran it on a real draft, and reviewed the gaps it flagged.
 
 ## Challenge
 
 Now customize the copied skill. Make at least 3 changes that make it more useful for your specific work:
 
-- Change the output format
-- Add or remove a step
-- Change which connectors it uses
-- Adjust the trigger (slash command name)
-- Modify the instructions to match your team's style
+- Add phrases your team overuses to the list of things to cut
+- Set a default audience (for example, "assume this goes to my team's leads")
+- Add a rule for the kind of writing you do most — launch emails, PR descriptions, weekly updates
+- Change the output, like making "review only, don't rewrite" the default
+- Adjust the trigger phrases in the description so it loads when you'd expect
 
-After customizing, run it again and compare the output to the original.
+After customizing, run it again on the same draft and compare the output to the original.
 
 > **Before you're done — Question It:** What did Claude assume? What's missing? What could break?
 

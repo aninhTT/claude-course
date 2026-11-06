@@ -29,8 +29,4 @@ Now that you know Claude Code and Cowork, it's time to learn about **plugins** â
 
 ## By the End of This Module
 
-You'll understand the plugin ecosystem and have both copied and built a reusable skill. Module 4 (Intermediate Skills) goes much deeper into custom skill creation, connecting skills, and automation.
-
----
-
-**Midway Check-in:** After completing this module, you'll be asked to share your progress via a quick survey. It helps us improve the course!
+You'll understand the plugin ecosystem and have both copied and built a reusable skill. Module 6 (Intermediate Skills) goes much deeper into custom skill creation, connecting skills, and automation. Next up: Artifacts in Module 4, where you'll turn your work into docs, decks, and designs you can share.
